@@ -22,6 +22,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
       today = day;
       selectedDayTasks = []; // Seçilen günün görevlerini temizle
     });
+
     _getTasksForSelectedDay(day);
   }
 
